@@ -24,7 +24,7 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
+          <span>
             Worked in different Projects like Credit Unions and others
             <br />
             handled designing part of AppForms of ClaySys
@@ -32,7 +32,7 @@ const Works = () => {
             Logical Problem solving Skill
             <br />
             Programming and designing skill
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
