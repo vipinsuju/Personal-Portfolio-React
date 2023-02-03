@@ -6,21 +6,36 @@ const Experience = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="experience" id='Experience'>
+    <div className="experience" id="Experience">
       <div className="achievement">
         {/* darkMode */}
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>1+</div>
-        <span  style={{color: darkMode?'white':''}}>years </span>
+        <div
+          className="circle"
+          style={{ color: darkMode ? "var(--orange)" : "" }}
+        >
+          1+
+        </div>
+        <span style={{ color: darkMode ? "white" : "" }}>years </span>
         <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
-        <span  style={{color: darkMode?'white':''}}>completed </span>
+        <div
+          className="circle"
+          style={{ color: darkMode ? "var(--orange)" : "" }}
+        >
+          5+
+        </div>
+        <span style={{ color: darkMode ? "white" : "" }}>completed </span>
         <span>Projects</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>1</div>
-        <span  style={{color: darkMode?'white':''}}>company </span>
+        <div
+          className="circle"
+          style={{ color: darkMode ? "var(--orange)" : "" }}
+        >
+          2
+        </div>
+        <span style={{ color: darkMode ? "white" : "" }}>companies</span>
         <span>Work</span>
       </div>
     </div>
