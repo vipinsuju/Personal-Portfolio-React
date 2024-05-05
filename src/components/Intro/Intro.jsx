@@ -74,7 +74,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="React" text2="Developer" />
+          <FloatinDiv img={crown} text1="React Js" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -85,7 +85,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="UI" text2="Developer" />
+          <FloatinDiv img={thumbup} text1="Next Js" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
